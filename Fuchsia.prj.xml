@@ -1,0 +1,2773 @@
+<TaskerData sr="" dvi="1" tv="5.1m">
+	<dmetric>720.0,1396.0</dmetric>
+	<Profile sr="prof33" ve="2">
+		<cdate>1516350696812</cdate>
+		<clp>true</clp>
+		<edate>1466100001596</edate>
+		<id>33</id>
+		<mid0>9</mid0>
+		<Event sr="con0" ve="2">
+			<code>3050</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">%AIR</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1466099989074</cdate>
+		<name>Fuchsia</name>
+		<pids>33</pids>
+		<scenes>Tasker Installed,Fuchsia Installed,Secure Not Installed,Rooted,CheckingTasker,Nova Installed,HelloFIN,Tasker Not Installed,KLWP Not Installed,Secure Installed,CheckingSecure,Installing,Popup,HelloBG,Downloading,KLWP Installed,Nova Not Installed,CheckingNova,InstallingNova,CheckingKLWP,InstallingSecure,Hello,NoRoot</scenes>
+		<tids>57,14,44,41,25,26,30,31,21,43,22,42,23,56,15,18,8,17,37,36,11,40,7,24,28,19,38,10,20,47,39,50,34,48,45,51,16,27,9,35,49,32</tids>
+		<Kid sr="Kid">
+			<flgs>1</flgs>
+			<launchID>36</launchID>
+			<pkg>nz.co.schoch.fuchsia</pkg>
+			<vnme>1.0.15</vnme>
+			<vnum>23</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<uri>content://com.android.providers.media.documents/document/image%3A13702</uri>
+		</Img>
+	</Project>
+	<Scene sr="sceneCheckingKLWP">
+		<cdate>1516857049620</cdate>
+		<edate>1516857127319</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>180</heightPort>
+		<nme>CheckingKLWP</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>360</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,359,179,0,0,359,179</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Checking for KLWP...</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ff000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Checking Nova</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneCheckingNova">
+		<cdate>1516857049620</cdate>
+		<edate>1516857176235</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>180</heightPort>
+		<nme>CheckingNova</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>720</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,720,180,0,0,359,179</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Checking for Nova Launcher...</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ff000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Checking Nova</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneCheckingSecure">
+		<cdate>1516857049620</cdate>
+		<edate>1516857226361</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>180</heightPort>
+		<nme>CheckingSecure</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>720</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,720,180,0,0,359,179</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Checking for Secure Settings...</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ff000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Checking Nova</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneCheckingTasker">
+		<cdate>1516857049620</cdate>
+		<edate>1516857235660</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>180</heightPort>
+		<nme>CheckingTasker</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>720</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,720,180,0,0,359,179</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Checking for Tasker...</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ff000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Checking Nova</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneDownloading">
+		<cdate>1516570101894</cdate>
+		<edate>1516570507261</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>193</heightPort>
+		<nme>Downloading</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>593</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,568,193,0,0,568,307</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Downloading Fuchsia...</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ff333333</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#fffFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Downloading</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneFuchsia Installed">
+		<cdate>1516574522428</cdate>
+		<edate>1516843462803</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>592</heightPort>
+		<nme>Fuchsia Installed</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>656</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,0,268,252,0,0,268,252</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A13702</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>254,75,386,99,255,0,379,252</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Fuchsia for KLWP</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3">productsans</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>32,223,598,231,32,170,598,231</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Fuchsia for KLWP has been successfully installed! Make sure you have KLWP set as your home and lock screen wallpapers.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>34</clickTask>
+			<flags>4</flags>
+			<geom>32,444,271,105,32,376,271,105</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">TAKE ME TO KLWP</Str>
+			<Int sr="arg2" val="13"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>35</clickTask>
+			<flags>4</flags>
+			<geom>352,444,271,108,352,376,271,108</geom>
+			<Str sr="arg0" ve="3">Button11</Str>
+			<Str sr="arg1" ve="3">EMAIL DEV</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>475,124,180,99,255,0,379,252</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">by cyberbyteNZ</Str>
+			<Int sr="arg2" val="11"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3">productsans</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Fuchsia Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneHello">
+		<cdate>1516493516770</cdate>
+		<edate>1516856843071</edate>
+		<gridSize>36</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>1280</heightPort>
+		<nme>Hello</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>720</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,0,720,550,0,0,455,354</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A13769</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,285,720,301,0,285,720,360</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffff</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>387,658,108,72,396,658,108,72</geom>
+			<Str sr="arg0" ve="3">Text32</Str>
+			<Str sr="arg1" ve="3">Tasker</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#333333</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>540,658,108,72,540,658,108,72</geom>
+			<Str sr="arg0" ve="3">Text33</Str>
+			<Str sr="arg1" ve="3">Secure Settings</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#333333</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<flags>4</flags>
+			<geom>36,766,648,180,36,406,648,108</geom>
+			<Str sr="arg0" ve="3">Text111</Str>
+			<Str sr="arg1" ve="3">Make sure you have all four installed for best results. Also, for some system toggles to work, your phone will need to be &lt;b&gt;rooted&lt;/b&gt;, and you will need to enable &lt;b&gt;System+&lt;/b&gt; in Secure Settings.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#c3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<ButtonElement sr="elements13" ve="3">
+			<clickTask>45</clickTask>
+			<flags>4</flags>
+			<geom>324,1090,324,118,324,1090,324,118</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">INSTALL FUCHSIA</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>36,334,648,180,36,334,648,180</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Thanks for installing Fuchsia!</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#c3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>36,406,648,108,36,406,648,108</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">Keep in mind, Fuchsia requires the following apps to function as intended:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#c3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ImageElement sr="elements4" ve="2">
+			<clickTask>48</clickTask>
+			<flags>4</flags>
+			<geom>72,550,108,108,72,550,144,144</geom>
+			<Str sr="arg0" ve="3">Image2</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.downloads.documents/document/1431</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<ImageElement sr="elements5" ve="2">
+			<clickTask>49</clickTask>
+			<flags>4</flags>
+			<geom>225,550,108,108,72,550,144,144</geom>
+			<Str sr="arg0" ve="3">Image21</Str>
+			<Img sr="arg1" ve="2">
+				<cls>com.teslacoilsw.launcher.NovaShortcutHandler</cls>
+				<pkg>com.teslacoilsw.launcher</pkg>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<ImageElement sr="elements6" ve="2">
+			<clickTask>50</clickTask>
+			<flags>4</flags>
+			<geom>387,550,108,108,72,550,144,144</geom>
+			<Str sr="arg0" ve="3">Image211</Str>
+			<Img sr="arg1" ve="2">
+				<cls>net.dinglisch.android.taskerm.Tasker</cls>
+				<pkg>net.dinglisch.android.taskerm</pkg>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<ImageElement sr="elements7" ve="2">
+			<clickTask>51</clickTask>
+			<flags>4</flags>
+			<geom>540,550,108,108,72,550,144,144</geom>
+			<Str sr="arg0" ve="3">Image2111</Str>
+			<Img sr="arg1" ve="2">
+				<cls>com.intangibleobject.securesettings.plugin.Activities.MainTabsActivity</cls>
+				<pkg>com.intangibleobject.securesettings.plugin</pkg>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>72,658,108,72,72,658,108,72</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">KLWP Pro</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#333333</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>225,658,108,72,216,658,108,72</geom>
+			<Str sr="arg0" ve="3">Text31</Str>
+			<Str sr="arg1" ve="3">Nova Launcher</Str>
+			<Int sr="arg2" val="10"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#333333</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<keyTask>18</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Hello</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>1</urlMatch>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneHelloBG">
+		<cdate>1516493516770</cdate>
+		<edate>1516848001114</edate>
+		<gridSize>36</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>1280</heightPort>
+		<nme>HelloBG</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>720</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,0,720,550,0,0,455,354</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A13769</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,285,720,301,0,285,720,360</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffff</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<PropertiesElement sr="props">
+			<keyTask>47</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Hello</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>1</urlMatch>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneHelloFIN">
+		<cdate>1516493516770</cdate>
+		<edate>1516867865048</edate>
+		<gridSize>36</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>1280</heightPort>
+		<nme>HelloFIN</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>720</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,0,720,550,0,0,455,354</geom>
+			<Str sr="arg0" ve="3">Image1</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A13769</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,285,720,301,0,285,720,360</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffff</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>36,334,648,108,36,334,648,180</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Thanks for installing Fuchsia!</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#c3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>36,406,648,288,36,406,648,108</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">To finish installing Fuchsia, you'll need to import a couple tasks in Tasker. First we'll:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#c3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>56</clickTask>
+			<flags>4</flags>
+			<geom>360,1126,324,118,324,1090,324,118</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">TAKE ME TO TASKER</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>72,514,612,144,36,406,648,108</geom>
+			<Str sr="arg0" ve="3">Text111</Str>
+			<Str sr="arg1" ve="3">•   Open Tasker
+•   Hold down on the Home icon down the bottom left
+•   Select Import
+•   Select Fuchsia</Str>
+			<Int sr="arg2" val="13"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#c3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>36,658,648,298,36,406,648,108</geom>
+			<Str sr="arg0" ve="3">Text112</Str>
+			<Str sr="arg1" ve="3">And now you're ready to go!</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#c3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<keyTask>57</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Hello</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>1</urlMatch>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneInstalling">
+		<cdate>1516570101894</cdate>
+		<edate>1516571197760</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>193</heightPort>
+		<nme>Installing</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>593</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,568,193,0,0,568,307</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Installing Fuchsia...</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ff333333</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#fffFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Downloading</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneInstallingNova">
+		<cdate>1516570101894</cdate>
+		<edate>1516845035408</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>256</heightPort>
+		<nme>InstallingNova</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>593</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>49,0,469,183,0,0,568,307</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">If it pops up on your screen, please select Nova Launcher.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ff333333</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>31</clickTask>
+			<flags>4</flags>
+			<geom>395,152,180,90,210,95,180,90</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">OKAY</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#fffFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Downloading</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneInstallingSecure">
+		<cdate>1516570101894</cdate>
+		<edate>1516576015318</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>298</heightPort>
+		<nme>InstallingSecure</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>572</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>19,0,525,172,0,0,568,307</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Please open Secure Settings, scroll to the System+ tab and hit enable to enable system toggles.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ff333333</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>32</clickTask>
+			<flags>4</flags>
+			<geom>371,183,180,90,210,95,180,90</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">OKAY</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#fffFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Downloading</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneKLWP Installed">
+		<cdate>1516518816645</cdate>
+		<edate>1516857041884</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>200</heightPort>
+		<nme>KLWP Installed</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>32,0,598,116,131,153,368,124</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Are you sure you have KLWP Pro installed?</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>8</clickTask>
+			<flags>4</flags>
+			<geom>33,101,198,74,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">YES, I BOUGHT THE APP</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>11</clickTask>
+			<flags>4</flags>
+			<geom>229,101,197,76,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button11</Str>
+			<Str sr="arg1" ve="3">YES, I BOUGHT THE KEY</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>15</clickTask>
+			<flags>4</flags>
+			<geom>426,101,189,76,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button12</Str>
+			<Str sr="arg1" ve="3">NO, NOT YET</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffffff</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">KLWP Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneKLWP Not Installed">
+		<cdate>1516518816645</cdate>
+		<edate>1516868043517</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>200</heightPort>
+		<nme>KLWP Not Installed</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>32,0,598,116,131,153,368,124</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">KLWP Pro is required to import this theme.</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>14</clickTask>
+			<flags>4</flags>
+			<geom>426,101,189,76,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button12</Str>
+			<Str sr="arg1" ve="3">PLAY STORE</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffffff</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">KLWP Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneNoRoot">
+		<cdate>1516857609096</cdate>
+		<edate>1516857866945</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>907</heightPort>
+		<nme>NoRoot</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>467</widthPort>
+	</Scene>
+	<Scene sr="sceneNova Installed">
+		<cdate>1516518816645</cdate>
+		<edate>1516683629578</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>200</heightPort>
+		<nme>Nova Installed</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>32,0,598,116,131,153,368,124</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Are you sure you have Nova Launcher installed?</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>17</clickTask>
+			<flags>4</flags>
+			<geom>33,101,198,74,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">YES</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>19</clickTask>
+			<flags>4</flags>
+			<geom>426,101,189,76,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button12</Str>
+			<Str sr="arg1" ve="3">NO, NOT YET</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffffff</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">KLWP Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneNova Not Installed">
+		<cdate>1516518816645</cdate>
+		<edate>1516868056110</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>200</heightPort>
+		<nme>Nova Not Installed</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>32,0,598,116,131,153,368,124</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Nova Launcher is required to import this theme.</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>20</clickTask>
+			<flags>4</flags>
+			<geom>426,101,189,76,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button12</Str>
+			<Str sr="arg1" ve="3">PLAY STORE</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffffff</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">KLWP Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scenePopup">
+		<cdate>1516865021513</cdate>
+		<edate>1516865021513</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>375</heightPort>
+		<nme>Popup</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>450</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>9,0,441,108,6,0,294,72</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="22"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF80CBC4</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,108,450,4,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements2" ve="3">
+			<clickTask>-936</clickTask>
+			<flags>5</flags>
+			<geom>10,118,429,219,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Text</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Popup</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneRooted">
+		<cdate>1516518816645</cdate>
+		<edate>1516857640771</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>242</heightPort>
+		<nme>Rooted</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>33,0,568,149,131,153,368,124</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Some parts of this theme require root access. Do you currently currently have root access?</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>27</clickTask>
+			<flags>4</flags>
+			<geom>181,133,198,74,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">I AM ROOTED</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>28</clickTask>
+			<flags>4</flags>
+			<geom>403,133,197,74,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button11</Str>
+			<Str sr="arg1" ve="3">USE WITHOUT ROOT</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffffff</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">KLWP Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneSecure Installed">
+		<cdate>1516518816645</cdate>
+		<edate>1516854603170</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>200</heightPort>
+		<nme>Secure Installed</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>32,0,598,116,131,153,368,124</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Are you sure you have Secure Settings installed?</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>23</clickTask>
+			<flags>4</flags>
+			<geom>33,101,198,74,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">YES</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>24</clickTask>
+			<flags>4</flags>
+			<geom>426,101,189,76,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button12</Str>
+			<Str sr="arg1" ve="3">NO, NOT YET</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffffff</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">KLWP Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneSecure Not Installed">
+		<cdate>1516518816645</cdate>
+		<edate>1516868065330</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>200</heightPort>
+		<nme>Secure Not Installed</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>32,0,598,116,131,153,368,124</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Secure Settings is required to run some parts of this theme.</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>25</clickTask>
+			<flags>4</flags>
+			<geom>426,101,189,76,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button12</Str>
+			<Str sr="arg1" ve="3">PLAY STORE</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffffff</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">KLWP Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneTasker Installed">
+		<cdate>1516518816645</cdate>
+		<edate>1516846774035</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>200</heightPort>
+		<nme>Tasker Installed</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>32,0,598,116,131,153,368,124</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Are you sure you have Tasker installed?</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>41</clickTask>
+			<flags>4</flags>
+			<geom>33,101,198,74,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">YES</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>42</clickTask>
+			<flags>4</flags>
+			<geom>426,101,189,76,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button12</Str>
+			<Str sr="arg1" ve="3">NO, NOT YET</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffffff</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">KLWP Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneTasker Not Installed">
+		<cdate>1516518816645</cdate>
+		<edate>1516575863863</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>200</heightPort>
+		<nme>Tasker Not Installed</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>635</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>32,0,598,124,131,153,368,124</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Tasker is required to run parts of this theme.</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffc3c3c3</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>43</clickTask>
+			<flags>4</flags>
+			<geom>426,99,189,74,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button12</Str>
+			<Str sr="arg1" ve="3">PLAY STORE</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>44</clickTask>
+			<flags>4</flags>
+			<geom>231,99,168,74,32,74,222,74</geom>
+			<Str sr="arg0" ve="3">Button121</Str>
+			<Str sr="arg1" ve="3">USE ANYWAY</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#ffffffff</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffffffff</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">KLWP Installed</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task10">
+		<cdate>1462797670665</cdate>
+		<edate>1466404379198</edate>
+		<id>10</id>
+		<nme>KAir</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>703953103</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Set: airready</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.kustom.tasker.VAR_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.kustom.tasker.VAR_NAME>airready</org.kustom.tasker.VAR_NAME>
+					<org.kustom.tasker.VAR_NAME-type>java.lang.String</org.kustom.tasker.VAR_NAME-type>
+					<org.kustom.tasker.VAR_VALUE>1</org.kustom.tasker.VAR_VALUE>
+					<org.kustom.tasker.VAR_VALUE-type>java.lang.String</org.kustom.tasker.VAR_VALUE-type>
+					<org.kustom.tasker.extra.INT_VERSION_CODE>315610511</org.kustom.tasker.extra.INT_VERSION_CODE>
+					<org.kustom.tasker.extra.INT_VERSION_CODE-type>java.lang.Integer</org.kustom.tasker.extra.INT_VERSION_CODE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.kustom.wallpaper</Str>
+			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.EditVarActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AIR</lhs>
+					<op>0</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">settings put global airplane_mode_on 0
+am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">settings put global airplane_mode_on 1
+am broadcast -a android.intent.action.AIRPLANE_MODE --ez state true</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_alerts_and_states_airplane_mode_off</nme>
+		</Img>
+	</Task>
+	<Task sr="task11">
+		<cdate>1516519583754</cdate>
+		<edate>1516519583754</edate>
+		<id>11</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Isklwpinstalled</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">KLWP Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1516519674500</cdate>
+		<edate>1516519674500</edate>
+		<id>14</id>
+		<pri>108</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Isklwpinstalled</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=org.kustom.wallpaper.pro&amp;hl=en</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">KLWP Not Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task15">
+		<cdate>1516519774260</cdate>
+		<edate>1516519774260</edate>
+		<id>15</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">KLWP Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">KLWP Not Installed</Str>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task16">
+		<cdate>1466101057447</cdate>
+		<edate>1516357203067</edate>
+		<id>16</id>
+		<nme>KRotate</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>822</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>348</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%arotate</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>703953103</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Set: arotate</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.kustom.tasker.VAR_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.kustom.tasker.VAR_NAME>arotate</org.kustom.tasker.VAR_NAME>
+					<org.kustom.tasker.VAR_NAME-type>java.lang.String</org.kustom.tasker.VAR_NAME-type>
+					<org.kustom.tasker.VAR_VALUE>%arotate</org.kustom.tasker.VAR_VALUE>
+					<org.kustom.tasker.VAR_VALUE-type>java.lang.String</org.kustom.tasker.VAR_VALUE-type>
+					<org.kustom.tasker.extra.INT_VERSION_CODE>318615717</org.kustom.tasker.extra.INT_VERSION_CODE>
+					<org.kustom.tasker.extra.INT_VERSION_CODE-type>java.lang.Integer</org.kustom.tasker.extra.INT_VERSION_CODE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.kustom.wallpaper</Str>
+			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.EditVarActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_screen_rotation</nme>
+		</Img>
+	</Task>
+	<Task sr="task17">
+		<cdate>1516519425359</cdate>
+		<edate>1516519425359</edate>
+		<id>17</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Isnovainstalled</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Nova Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task18">
+		<cdate>1516843729357</cdate>
+		<edate>1516843729357</edate>
+		<id>18</id>
+		<Action sr="act0" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">1</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task19">
+		<cdate>1516519774260</cdate>
+		<edate>1516519774260</edate>
+		<id>19</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Nova Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Nova Not Installed</Str>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task20">
+		<cdate>1516519674500</cdate>
+		<edate>1516519674500</edate>
+		<id>20</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Isnovainstalled</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher&amp;hl=en</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Nova Not Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task21">
+		<cdate>1516516351451</cdate>
+		<edate>1516857359130</edate>
+		<id>21</id>
+		<nme>CheckNova</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">CheckingNova</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>815</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">com.teslacoilsw.launcher</Str>
+			<Str sr="arg2" ve="3">%Isnovainstalled</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">CheckingNova</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CheckSecure</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Isnovainstalled1</lhs>
+					<op>1</op>
+					<rhs>com.teslacoilsw.launcher</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Isnovainstalled</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">CheckingNova</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Nova Installed</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Isnovainstalled</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Isnovainstalled</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">CheckNova</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task22">
+		<cdate>1516516351451</cdate>
+		<edate>1516857458811</edate>
+		<id>22</id>
+		<nme>CheckSecure</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">CheckingSecure</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>815</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">%Issecureinstalled</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">CheckingSecure</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CheckTasker</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Issecureinstalled1</lhs>
+					<op>1</op>
+					<rhs>com.intangibleobject.securesettings.plugin</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Issecureinstalled</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">CheckingSecure</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Secure Installed</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Issecureinstalled</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Issecureinstalled</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">CheckSecure</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task23">
+		<cdate>1516519425359</cdate>
+		<edate>1516519425359</edate>
+		<id>23</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Issecureinstalled</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Secure Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task24">
+		<cdate>1516519774260</cdate>
+		<edate>1516519774260</edate>
+		<id>24</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Secure Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Secure Not Installed</Str>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1516519674500</cdate>
+		<edate>1516519674500</edate>
+		<id>25</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Issecureinstalled</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin&amp;hl=en</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Secure Not Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task26">
+		<cdate>1516523037102</cdate>
+		<edate>1516857602539</edate>
+		<id>26</id>
+		<nme>CheckRoot</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Root</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Rooted</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Root</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CheckKLWP</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1516519425359</cdate>
+		<edate>1516519425359</edate>
+		<id>27</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Rooted</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Root</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task28">
+		<cdate>1516519583754</cdate>
+		<edate>1516519583754</edate>
+		<id>28</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Rooted</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Root</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task30">
+		<cdate>1516569481328</cdate>
+		<edate>1516867897773</edate>
+		<id>30</id>
+		<nme>DLFuchsia</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Downloading</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">schoch.co.nz</Str>
+			<Str sr="arg1" ve="3">fuchsia.zip</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="120"/>
+			<Str sr="arg6" ve="3">zip</Str>
+			<Str sr="arg7" ve="3">fuchsia.zip</Str>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">HelloFIN</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Downloading</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Installing</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>422</code>
+			<Str sr="arg0" ve="3">fuchsia.zip</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>400</code>
+			<Str sr="arg0" ve="3">fuchsia.novabackup</Str>
+			<Str sr="arg1" ve="3">data/com.teslacoilsw.launcher/backup/fuchsia.novabackup</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>400</code>
+			<Str sr="arg0" ve="3">fuchsia.klwp</Str>
+			<Str sr="arg1" ve="3">Kustom/wallpapers/fuchsia.klwp</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>400</code>
+			<Str sr="arg0" ve="3">fuchsia.prj.xml</Str>
+			<Str sr="arg1" ve="3">Tasker/projects/fuchsia.prj.xml</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>112292257</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Set: 'Fuchsia'</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.kustom.tasker.PRESET>kfile://org.kustom.sdcard.000//wallpapers/Fuchsia.klwp</org.kustom.tasker.PRESET>
+					<org.kustom.tasker.PRESET-type>java.lang.String</org.kustom.tasker.PRESET-type>
+					<org.kustom.tasker.WIDGET_ID>0</org.kustom.tasker.WIDGET_ID>
+					<org.kustom.tasker.WIDGET_ID-type>java.lang.Integer</org.kustom.tasker.WIDGET_ID-type>
+					<org.kustom.tasker.extra.INT_VERSION_CODE>329733810</org.kustom.tasker.extra.INT_VERSION_CODE>
+					<org.kustom.tasker.extra.INT_VERSION_CODE-type>java.lang.Integer</org.kustom.tasker.extra.INT_VERSION_CODE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.kustom.wallpaper</Str>
+			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.LoadPresetActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Installing</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task31">
+		<cdate>1516573816955</cdate>
+		<edate>1516573816955</edate>
+		<id>31</id>
+		<pri>114</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">InstallingNova</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%InstallingNovaOkay</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task32">
+		<cdate>1516573816955</cdate>
+		<edate>1516573816955</edate>
+		<id>32</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">InstallingSecure</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%InstallingSecureOkay</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task34">
+		<cdate>1516574881927</cdate>
+		<edate>1516574881927</edate>
+		<id>34</id>
+		<pri>112</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Fuchsia Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>org.kustom.lib.editor.WpAdvancedEditorActivity</appClass>
+				<appPkg>org.kustom.wallpaper</appPkg>
+				<label>KLWP</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task35">
+		<cdate>1516574881927</cdate>
+		<edate>1516574881927</edate>
+		<id>35</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Fuchsia Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>125</code>
+			<Str sr="arg0" ve="3">cyberbyte@hotmail.com</Str>
+			<Str sr="arg1" ve="3">Fuchsia for KLWP</Str>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task36">
+		<cdate>1516575288238</cdate>
+		<edate>1516856826983</edate>
+		<id>36</id>
+		<nme>Start</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Hello</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task37">
+		<cdate>1516358749382</cdate>
+		<edate>1516866342273</edate>
+		<id>37</id>
+		<nme>PowerOff</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>246</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>cust_bolt_white</nme>
+		</Img>
+	</Task>
+	<Task sr="task38">
+		<cdate>1516360030939</cdate>
+		<edate>1516360224569</edate>
+		<id>38</id>
+		<nme>BrightUp</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>810</code>
+			<Int sr="arg0">
+				<var>%BRIGHT+10</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>703953103</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Set: bright</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.kustom.tasker.VAR_NAME org.kustom.tasker.VAR_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.kustom.tasker.VAR_NAME>bright</org.kustom.tasker.VAR_NAME>
+					<org.kustom.tasker.VAR_NAME-type>java.lang.String</org.kustom.tasker.VAR_NAME-type>
+					<org.kustom.tasker.VAR_VALUE>%BRIGHT</org.kustom.tasker.VAR_VALUE>
+					<org.kustom.tasker.VAR_VALUE-type>java.lang.String</org.kustom.tasker.VAR_VALUE-type>
+					<org.kustom.tasker.extra.INT_VERSION_CODE>329733810</org.kustom.tasker.extra.INT_VERSION_CODE>
+					<org.kustom.tasker.extra.INT_VERSION_CODE-type>java.lang.Integer</org.kustom.tasker.extra.INT_VERSION_CODE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.kustom.wallpaper</Str>
+			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.EditVarActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>cust_bolt_white</nme>
+		</Img>
+	</Task>
+	<Task sr="task39">
+		<cdate>1516360030939</cdate>
+		<edate>1516360235498</edate>
+		<id>39</id>
+		<nme>BrightDown</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>810</code>
+			<Int sr="arg0">
+				<var>%BRIGHT-10</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>703953103</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Set: bright</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.kustom.tasker.VAR_NAME org.kustom.tasker.VAR_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.kustom.tasker.VAR_NAME>bright</org.kustom.tasker.VAR_NAME>
+					<org.kustom.tasker.VAR_NAME-type>java.lang.String</org.kustom.tasker.VAR_NAME-type>
+					<org.kustom.tasker.VAR_VALUE>%BRIGHT</org.kustom.tasker.VAR_VALUE>
+					<org.kustom.tasker.VAR_VALUE-type>java.lang.String</org.kustom.tasker.VAR_VALUE-type>
+					<org.kustom.tasker.extra.INT_VERSION_CODE>329733810</org.kustom.tasker.extra.INT_VERSION_CODE>
+					<org.kustom.tasker.extra.INT_VERSION_CODE-type>java.lang.Integer</org.kustom.tasker.extra.INT_VERSION_CODE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.kustom.wallpaper</Str>
+			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.EditVarActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>cust_notification</nme>
+		</Img>
+	</Task>
+	<Task sr="task40">
+		<cdate>1516516351451</cdate>
+		<edate>1516857538846</edate>
+		<id>40</id>
+		<nme>CheckTasker</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">CheckingTasker</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>815</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">net.dinglisch.android.taskerm</Str>
+			<Str sr="arg2" ve="3">%Istaskerinstalled</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">CheckingTasker</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">DLFuchsia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Istaskerinstalled1</lhs>
+					<op>1</op>
+					<rhs>net.dinglisch.android.taskerm</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Istaskerinstalled</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">CheckingTasker</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Tasker Installed</Str>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Istaskerinstalled</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Istaskerinstalled</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">CheckTasker</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task41">
+		<cdate>1516519425359</cdate>
+		<edate>1516519425359</edate>
+		<id>41</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Istaskerinstalled</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Tasker Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task42">
+		<cdate>1516519774260</cdate>
+		<edate>1516519774260</edate>
+		<id>42</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Tasker Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Tasker Not Installed</Str>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task43">
+		<cdate>1516519674500</cdate>
+		<edate>1516519674500</edate>
+		<id>43</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Istaskerinstalled</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=en</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Tasker Not Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task44">
+		<cdate>1516519674500</cdate>
+		<edate>1516519674500</edate>
+		<id>44</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Istaskerinstalled</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Tasker Not Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task45">
+		<cdate>1516844842110</cdate>
+		<edate>1516844842110</edate>
+		<id>45</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">HelloBG</Str>
+			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="2"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CheckRoot</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Hello</Str>
+			<Int sr="arg1" val="2"/>
+		</Action>
+	</Task>
+	<Task sr="task47">
+		<cdate>1516843729357</cdate>
+		<edate>1516843729357</edate>
+		<id>47</id>
+		<Action sr="act0" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">1</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task48">
+		<cdate>1516845165300</cdate>
+		<edate>1516845165300</edate>
+		<id>48</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=org.kustom.wallpaper.pro&amp;hl=en</Str>
+		</Action>
+	</Task>
+	<Task sr="task49">
+		<cdate>1516845205761</cdate>
+		<edate>1516845205761</edate>
+		<id>49</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher&amp;hl=en</Str>
+		</Action>
+	</Task>
+	<Task sr="task50">
+		<cdate>1516845261170</cdate>
+		<edate>1516845261170</edate>
+		<id>50</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=en</Str>
+		</Action>
+	</Task>
+	<Task sr="task51">
+		<cdate>1516845300066</cdate>
+		<edate>1516845300066</edate>
+		<id>51</id>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin&amp;hl=en</Str>
+		</Action>
+	</Task>
+	<Task sr="task56">
+		<cdate>1516844842110</cdate>
+		<edate>1516844842110</edate>
+		<id>56</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">HelloFIN</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>net.dinglisch.android.taskerm.Tasker</appClass>
+				<appPkg>net.dinglisch.android.taskerm</appPkg>
+				<label>Tasker</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task57">
+		<cdate>1516843729357</cdate>
+		<edate>1516843729357</edate>
+		<id>57</id>
+		<Action sr="act0" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">1</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1516516351451</cdate>
+		<edate>1516857310946</edate>
+		<id>7</id>
+		<nme>CheckKLWP</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">CheckingKLWP</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>815</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">org.kustom.wallpaper.pro</Str>
+			<Str sr="arg2" ve="3">%isklwpinstalled</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">CheckingKLWP</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CheckNova</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isklwpinstalled1</lhs>
+					<op>1</op>
+					<rhs>org.kustom.wallpaper.pro</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Isklwpinstalled</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">CheckingKLWP</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">KLWP Installed</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Isklwpinstalled</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Isklwpinstalled</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">CheckKLWP</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1516519425359</cdate>
+		<edate>1516519425359</edate>
+		<id>8</id>
+		<pri>106</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Isklwpinstalled</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">KLWP Installed</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1463253720449</cdate>
+		<edate>1464335044897</edate>
+		<id>9</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>703953103</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Set: airready</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.kustom.tasker.VAR_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.kustom.tasker.VAR_NAME>airready</org.kustom.tasker.VAR_NAME>
+					<org.kustom.tasker.VAR_NAME-type>java.lang.String</org.kustom.tasker.VAR_NAME-type>
+					<org.kustom.tasker.VAR_VALUE>0</org.kustom.tasker.VAR_VALUE>
+					<org.kustom.tasker.VAR_VALUE-type>java.lang.String</org.kustom.tasker.VAR_VALUE-type>
+					<org.kustom.tasker.extra.INT_VERSION_CODE>315610511</org.kustom.tasker.extra.INT_VERSION_CODE>
+					<org.kustom.tasker.extra.INT_VERSION_CODE-type>java.lang.Integer</org.kustom.tasker.extra.INT_VERSION_CODE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.kustom.wallpaper</Str>
+			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.EditVarActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>341</code>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%mdata</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>703953103</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Set: mdata</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.kustom.tasker.VAR_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.kustom.tasker.VAR_NAME>mdata</org.kustom.tasker.VAR_NAME>
+					<org.kustom.tasker.VAR_NAME-type>java.lang.String</org.kustom.tasker.VAR_NAME-type>
+					<org.kustom.tasker.VAR_VALUE>%mdata</org.kustom.tasker.VAR_VALUE>
+					<org.kustom.tasker.VAR_VALUE-type>java.lang.String</org.kustom.tasker.VAR_VALUE-type>
+					<org.kustom.tasker.extra.INT_VERSION_CODE>315610511</org.kustom.tasker.extra.INT_VERSION_CODE>
+					<org.kustom.tasker.extra.INT_VERSION_CODE-type>java.lang.Integer</org.kustom.tasker.extra.INT_VERSION_CODE-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.kustom.wallpaper</Str>
+			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.EditVarActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
